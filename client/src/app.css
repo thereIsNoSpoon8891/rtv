@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.login-form--container{
+    height: 500px;
+    width:500px ;
+    border: solid black 4px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    background: rgb(219, 217, 217);
+    font-family: sans-serif;
+}
+
+.login-form--container p{
+    font-size: 20px;
+}
+
+.inputs{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border: solid 3px rgb(63, 101, 176);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.form--button{
+    height: 50px;
+    width: 120px;
+    border: none;
+    background: rgb(63, 101, 176);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.nav--container{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background: rgb(219, 217, 217);
+    border-bottom: solid black 2px;
+    margin-bottom: 10px;
+}
+
+.nav--container h1 {
+    color: rgb(63, 101, 176);
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.nav--container a {
+    color: rgb(63, 101, 176);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.username{
+    text-transform: capitalize;
+}
+
+.profile--form{
+    border: solid black 3px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-area--input{
+    resize: none;
+    height: 100px;
+    width: 620px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: solid 3px rgb(63, 101, 176);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.buttons{
+    height: 50px;
+    width: 120px;
+    border: none;
+    background: rgb(63, 101, 176);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.comment--container{
+    background-color: rgb(179, 178, 178);
+    width: 150px;
+    height: 150px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    margin: 20px;
+    text-align: center;
+}
+.comment--container p {
+    margin: 3px;
+}
+.comments--box{
+    display: flex;
+
+}
+.issues--container{
+    display: flex;
+    flex-direction: column;
+    border: solid black 3px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.upvote{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: rgb(2, 199, 2) ;
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+    cursor: pointer;
+    -webkit-clip-path: polygon(100% 41%, 84% 42%, 84% 100%, 20% 100%, 20% 42%, 0 42%, 49% 0);
+    clip-path: polygon(100% 41%, 84% 42%, 84% 100%, 20% 100%, 20% 42%, 0 42%, 49% 0);
+}
+.downvote{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: rgb(239, 77, 77);
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+    cursor: pointer;
+    -webkit-clip-path: polygon(77% 0, 77% 65%, 100% 65%, 48% 100%, 0 66%, 23% 66%, 23% 0);
+    clip-path: polygon(77% 0, 77% 65%, 100% 65%, 48% 100%, 0 66%, 23% 66%, 23% 0);
+}
