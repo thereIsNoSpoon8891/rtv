@@ -1,6 +1,4 @@
 import { BrowserRouter as Browser, Routes, Route } from 'react-router-dom'
-import { UserContextProvider } from '../context/UserProvider'
-import { IssueContextProvider } from '../context/IssueProvider'
 import { UserContext } from '../context/UserProvider'
 import { useContext } from 'react'
 import ProtectedRoutes from './ProtectedRoutes'
