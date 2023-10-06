@@ -17,7 +17,7 @@ issueRouter.route("/")
 
 issueRouter.route("/user")// bug solved, concrete routes must be BEFORE parameterized routes!
 .get((req, res, next) => {
-    console.log(req.body)
+    // console.log(req.body)
     Issue.find({user: req.auth._id})
         .then(issues => res.status(200).send(issues))
         .catch(err => next(err))
