@@ -104,7 +104,7 @@ const handleError = errorMessage => {
         errorMessage
     }))
 }
-    console.log(user)
+    // console.log(user)
     //console.log(userIssues)
     return(
         <UserContext.Provider

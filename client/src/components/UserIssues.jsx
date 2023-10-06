@@ -9,8 +9,13 @@ const UserIssues = props => {
     const {title, description, image, upvotes, downvotes, id, comments } = props
     
     const commentElements = comments.map(comment => (
-        <div className="comment--container">
-            <p key={comment._id}>{comment.comment}</p>
+        <div 
+        className="comment--container"
+        key={comment._id}
+        >
+            <p>
+                {comment.comment}
+            </p>
         </div>
     ))
 
